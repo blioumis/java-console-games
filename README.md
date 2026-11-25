@@ -1,7 +1,7 @@
 # Java Console Games
 
-A collection of three console-based games developed in Java as part of
-university coursework in Object-Oriented Programming.
+A collection of three console-based games developed individually in Java
+as part of university coursework in Object-Oriented Programming.
 
 The project includes Between, Xeri and Shape Game, demonstrating fundamental
 Java programming concepts, object-oriented design, data structures,
@@ -21,9 +21,11 @@ All three games follow the rules of their original academic assignments.
 - [Input Validation](#input-validation)
 - [Manual Testing](#manual-testing)
 - [Post-Submission Improvements](#post-submission-improvements)
+- [Software Development Skills](#software-development-skills)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Academic Information](#academic-information)
+- [Individual Contribution](#individual-contribution)
 - [Copyright](#copyright)
 
 ---
@@ -313,7 +315,7 @@ The abstract Shape class defines common properties and behavior for
 geometric shapes.
 
 Each concrete subclass provides its own implementation of the
-computeArea() method.
+`computeArea()` method.
 
 ### Inheritance
 
@@ -340,12 +342,12 @@ dynamically according to the actual object type.
 
 ### Method Overriding
 
-Concrete shape classes override computeArea() to implement their
+Concrete shape classes override `computeArea()` to implement their
 individual area calculations.
 
-BonusCircle overrides computePoints() to provide additional points.
+BonusCircle overrides `computePoints()` to provide additional points.
 
-Several classes also override toString() to provide meaningful
+Several classes also override `toString()` to provide meaningful
 console output.
 
 ### Composition
@@ -599,7 +601,7 @@ with identical names.
 
 Clone or download the repository from GitHub.
 
-Navigate to the java-console-games directory.
+Navigate to the `java-console-games` directory.
 
 ### Run Between
 
@@ -632,6 +634,8 @@ javac -d shape-game/out -sourcepath shape-game/src shape-game/src/ShapeGenerator
 java -cp shape-game/out ShapeGeneratorMain
 ```
 
+Create the `shape-game/out` directory first if it does not already exist.
+
 The commands above are intended to be executed from the root
 directory of the repository.
 
@@ -662,20 +666,29 @@ they contain classes with identical names.
 - University: University of Ioannina
 - Department: Computer Science and Engineering
 - Subject: Java / Object-Oriented Programming
-- Project Type: Academic Programming Assignments
+- Project Type: Individual Academic Programming Assignments
+- Development Team: Individual Developer
 - Programming Language: Java
 - Number of Games: 3
 - Number of Java Source Files: 23
 
-The original implementations were developed as university coursework
-and subsequently refined for portfolio presentation.
+The original implementations were developed individually as university
+coursework and subsequently refined for portfolio presentation.
+
+---
+
+## Individual Contribution
+
+All three games were originally developed individually, with the
+implementation, debugging and development work completed independently
+according to the academic assignment requirements.
 
 ---
 
 ## Copyright
 
-This repository contains academic work presented for educational
-and professional portfolio purposes.
+This repository contains individual academic work presented for
+educational and professional portfolio purposes.
 
 The original assignment specifications and game requirements are
 attributed to their respective academic authors.
